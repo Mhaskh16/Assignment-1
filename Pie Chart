@@ -1,0 +1,19 @@
+# given data
+percentages = [0.65, 12.28, 20.65, 20.57, 37.73, 4.86, 1.81, 0.76, 0.68]
+labels = ['A*', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'U']
+
+plt.pie(percentages, labels=labels, autopct='%1.1f%%', shadow=True, 
+        startangle=140)
+
+plt.title('Percentage of Candidates in Each Grade in 2015')
+plt.show()
+
+# given data
+percentages = [1.17, 13.43, 20.09, 19.62, 36.80, 5.27, 2.02, 0.92, 0.67]
+labels = ['A*', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'U']
+
+plt.pie(percentages, labels=labels, autopct='%1.1f%%', shadow=True, 
+        startangle=140)
+
+plt.title('Percentage of Candidates in Each Grade in 2015')
+plt.show()
