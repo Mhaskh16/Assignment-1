@@ -1,5 +1,8 @@
 # Assignment-1
 #This is the Assingment 1
+
+# imports
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
