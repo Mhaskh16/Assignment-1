@@ -18,7 +18,7 @@ plt.ylabel('Candidates')
 # Displaying the bar graph
 plt.show()
 
-#creating Pie Chart
+# creating Pie Chart
 
 years = df["year"].tolist()
 candidates = df["entries"].tolist()
@@ -27,10 +27,10 @@ candidates = df["entries"].tolist()
 plt.pie(candidates, labels=years, autopct="%1.1f%%")
 plt.axis("equal")
 
-#displaying Pie Chart
+# displaying Pie Chart
 plt.show()
 
-#creating Scatter plot
+# creating Scatter plot
 def create_scatter_plot_top_10(df, x_column, y_column, title, xlabel, ylabel):
     plt.figure(figsize=(10, 6))
     plt.scatter(df[years], df[entries], alpha=0.5)
